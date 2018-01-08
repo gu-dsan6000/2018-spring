@@ -1,8 +1,7 @@
-**This syllabus is effective as of Sunday January 07, 2018 at 09:56 PM**
+**This syllabus is effective as of Sunday January 07, 2018 at 10:01
+PM**
 
-# ANLY502 - Massive Data Analytics - Georgetown University - Spring 2018
-
-**Welcome to Massive Data Analytics\! **
+# ANLY502 <br/> Massive Data Analytics <br/> Georgetown University <br/> Spring 2018
 
 ## Course Information
 
@@ -234,17 +233,15 @@ The Infrastructure of the Cloud
 
 <td style="text-align:left;">
 
-Overview of major Cloud Computing providers (AWS and Azure)
-
-IAAS, PAAS and SAAS , Other Cloud providers
+Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS
+and SAAS, Other Cloud providers
 
 </td>
 
 <td style="text-align:left;">
 
-Setup your environment
-
-Create SSH keys , Start and connect to an instance in the cloud
+Setup your environment, create SSH keys, start and connect to an
+instance in the cloud
 
 </td>
 
