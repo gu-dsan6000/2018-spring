@@ -1,4 +1,4 @@
-**This syllabus is effective as of Sunday January 07, 2018 at 10:01
+**This syllabus is effective as of Monday, January 08, 2018 at 07:30
 PM**
 
 # ANLY502 <br/> Massive Data Analytics <br/> Georgetown University <br/> Spring 2018
@@ -104,24 +104,37 @@ opportunities to use the tools and techniques discussed in class.
 Although this is not a programming course per se, there is programming
 involved.
 
+## Lectures and In-Class Labs
+
 Every class session will have a lecture portion and many sessions will
 have an in-class lab portion. The lab exercises are not graded and are
 designed to get you familiar with the tools discussed in class. In these
 labs, we will work through simple examples. The completion of lab
 exercises is part of your in-class participation portion of the grade.
 
-There will be online quizzes about the topics/ideas discussed in class
-and from the readings. The purpose of the quizzes is to reinforce your
-knowledge about the tools and platform and also to help you remember the
-nomenclature and terms used in class. The quizzes will be online and you
-will have 30 minutes to take them at your convenience within the
-established time window.
+## Quizzes
+
+There will be a total of 6 online quizzes about the topics/ideas
+discussed in class and from the readings. The purpose of the quizzes is
+to reinforce your knowledge about the tools and platform and also to
+help you remember the nomenclature and terms used in class. The quizzes
+will be online through [Canvas](http://canvas.georgetown.edu) and you
+can take them at your convenience within the established time window.
+
+## Assignments
 
 You will be given problem sets as homework assignments. The goal of
 these problem sets is to use the big data tools to answer some questions
 about large datasets. The problem sets will build on the labs and will
 be much more ellaborate. Deliverables from the problem sets will usually
 include code written for your programs and the output produced.
+
+We will be using [GitHub Classroom](https://classroom.github.com/) for
+problem sets and assignment submissions. When an assignment is created,
+we will email you a link that will clone the assignment and create a
+private repository for you. You will perform your work within the
+repository and then push back to GitHub for submission. If you do not
+have a [GitHub](http://www.github.com) account, please create one.
 
 ## Grading
 
@@ -136,496 +149,21 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-<table class="table table-striped" style="font-size: 10px; margin-left: auto; margin-right: auto;">
-
-<thead>
-
-<tr>
-
-<th style="text-align:left;">
-
-Date
-
-</th>
-
-<th style="text-align:right;">
-
-Session
-
-</th>
-
-<th style="text-align:left;">
-
-Title
-
-</th>
-
-<th style="text-align:left;">
-
-Topics
-
-</th>
-
-<th style="text-align:left;">
-
-Lab
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Jan 10
-
-</td>
-
-<td style="text-align:right;">
-
-1
-
-</td>
-
-<td style="text-align:left;">
-
-Welcome to Massive Data Analytics
-
-</td>
-
-<td style="text-align:left;">
-
-Course Overview, What is Big Data, Distributed Computing, Cloud
-Computing, High Performance Computing
-
-</td>
-
-<td style="text-align:left;">
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Jan 22
-
-</td>
-
-<td style="text-align:right;">
-
-2
-
-</td>
-
-<td style="text-align:left;">
-
-The Infrastructure of the Cloud
-
-</td>
-
-<td style="text-align:left;">
-
-Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS
-and SAAS, Other Cloud providers
-
-</td>
-
-<td style="text-align:left;">
-
-Setup your environment, create SSH keys, start and connect to an
-instance in the cloud
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Jan 29
-
-</td>
-
-<td style="text-align:right;">
-
-3
-
-</td>
-
-<td style="text-align:left;">
-
-Database Systems
-
-</td>
-
-<td style="text-align:left;">
-
-Overview of scalable database systems, Massively Parallel Processing
-databases, Neteeza, Greenplum, RedShift
-
-</td>
-
-<td style="text-align:left;">
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Feb 05
-
-</td>
-
-<td style="text-align:right;">
-
-4
-
-</td>
-
-<td style="text-align:left;">
-
-Introduction to Hadoop & MapReduce
-
-</td>
-
-<td style="text-align:left;">
-
-Hadoop
-
-Distributed filesystems
-
-MapReduce programming model
-
-</td>
-
-<td style="text-align:left;">
-
-Start and connect to a cluster, Run built-in Hadoop examples on cluster,
-Examine the different user interfaces
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Feb 12
-
-</td>
-
-<td style="text-align:right;">
-
-5
-
-</td>
-
-<td style="text-align:left;">
-
-Hadoop Streaming
-
-</td>
-
-<td style="text-align:left;">
-
-Haddop Streaming
-
-</td>
-
-<td style="text-align:left;">
-
-Run the “Hello World” of Hadoop, the word count using Hadoop Streaming
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Feb 26
-
-</td>
-
-<td style="text-align:right;">
-
-6
-
-</td>
-
-<td style="text-align:left;">
-
-Higher Level APIs
-
-</td>
-
-<td style="text-align:left;">
-
-Pig and Hive
-
-</td>
-
-<td style="text-align:left;">
-
-Store a dataset in a Hive table, Run and example Pig job
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Mar 12
-
-</td>
-
-<td style="text-align:right;">
-
-7
-
-</td>
-
-<td style="text-align:left;">
-
-Introduction to Spark
-
-</td>
-
-<td style="text-align:left;">
-
-What is Spark, Resilient Distributed Datasets, PySpark
-
-</td>
-
-<td style="text-align:left;">
-
-Start a PySpark session, Create RDDs, Operate on RDDs
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Mar 19
-
-</td>
-
-<td style="text-align:right;">
-
-8
-
-</td>
-
-<td style="text-align:left;">
-
-SparkSQL
-
-</td>
-
-<td style="text-align:left;">
-
-SQL Review, Intro to SparkSQL
-
-</td>
-
-<td style="text-align:left;">
-
-Perform operations on Spark dataframes using SparkSQL
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Mar 26
-
-</td>
-
-<td style="text-align:right;">
-
-9
-
-</td>
-
-<td style="text-align:left;">
-
-Machine Learning on Big Data
-
-</td>
-
-<td style="text-align:left;">
-
-SparkML, Issues with ML algorithms on large datasets
-
-</td>
-
-<td style="text-align:left;">
-
-Build a model
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Apr 09
-
-</td>
-
-<td style="text-align:right;">
-
-10
-
-</td>
-
-<td style="text-align:left;">
-
-Working with Streaming Datasets
-
-</td>
-
-<td style="text-align:left;">
-
-Spark Streaming
-
-</td>
-
-<td style="text-align:left;">
-
-TBD
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Apr 16
-
-</td>
-
-<td style="text-align:right;">
-
-11
-
-</td>
-
-<td style="text-align:left;">
-
-NoSQL
-
-</td>
-
-<td style="text-align:left;">
-
-NoSQL
-
-</td>
-
-<td style="text-align:left;">
-
-Store data in a NoSQL data store
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Apr 23
-
-</td>
-
-<td style="text-align:right;">
-
-12
-
-</td>
-
-<td style="text-align:left;">
-
-Working with Graph Datasets
-
-</td>
-
-<td style="text-align:left;">
-
-GraphX API for Spark
-
-</td>
-
-<td style="text-align:left;">
-
-Analyze a large graph
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;width: 6em; ">
-
-Apr 30
-
-</td>
-
-<td style="text-align:right;">
-
-13
-
-</td>
-
-<td style="text-align:left;">
-
-Other tools of interest
-
-</td>
-
-<td style="text-align:left;">
-
-Apache Drill, other topics TBD
-
-</td>
-
-<td style="text-align:left;">
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            |
+| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |
+| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |
+| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |                                                                                                                |
+| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces |
+| Feb 12 |       5 | Hadoop Streaming                   | Haddop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         |
+| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       |
+| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |
+| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |
+| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |
+| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |
+| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |
+| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |
+| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |
 
 **Class will not meet on Jan 15 (MLK Holiday), Feb 19 (President’s Day),
 Mar 05 (Spring Break), Apr 02 (Easter Break).**
