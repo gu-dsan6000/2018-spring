@@ -1,7 +1,7 @@
-**This syllabus is effective as of Monday, January 08, 2018 at 07:30
-PM**
+**This syllabus is effective as of Tuesday, January 09, 2018 at 11:03
+AM**
 
-# ANLY502 <br/> Massive Data Analytics <br/> Georgetown University <br/> Spring 2018
+# ANLY502 <br/> Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2018
 
 ## Course Information
 
@@ -22,21 +22,21 @@ Hadoop Ecosystem and other tools.
 
 You will understand how to acquire and/or ingest the data, and then
 massage, clean, transform, analyze, and model it within the context of
-big data analytics. You will be able to think more programatically and
+big data analytics. You will be able to think more programmatically and
 logically about your big data needs, tools and issues.
 
 ## Credit Hours
 
 This is a 3 credit graduate course. You will spend approximately 3 hours
 per week in class. It is expected that you will spend approximately 2-3
-hourse of outside classroom activities (required readings, homework
+hours of outside classroom activities (required readings, homework
 problems, completion of labs, quizzes, etc.) for each hour of class
 time. You will spend 36 hours in instructional time, and approximately
 100 hours in out-of-classroom time.
 
 ## Course Objectives
 
-  - Operate big data tools and cloud insfrastructure, including Spark,
+  - Operate big data tools and cloud infrastructure, including Spark,
     MapReduce, Hadoop and other tools in the big data ecosystem
   - Recognize and use ancillary tools that support big data processing,
     including git and the Linux command line
@@ -71,9 +71,10 @@ different parts of the material. We will assign readings for each class
 from these books. These books are all available on [Safari Books
 Online](https://www.safaribooksonline.com/), and you should be able to
 access these resources. Our understanding is that as a Georgetown
-student, you have access to these resources. Visit the [Geortown Library
-e-book information page](https://guides.library.georgetown.edu/ebooks)
-for additional infortmation and click on “Safari Books Online”.
+student, you have access to these resources. Visit the [Georgetown
+Library e-book information
+page](https://guides.library.georgetown.edu/ebooks) for additional
+information and click on “Safari Books Online”.
 
 We may also provide supplemental materials to complement the books.
 Articles, links, etc. will be posted on Canvas.
@@ -126,7 +127,7 @@ can take them at your convenience within the established time window.
 You will be given problem sets as homework assignments. The goal of
 these problem sets is to use the big data tools to answer some questions
 about large datasets. The problem sets will build on the labs and will
-be much more ellaborate. Deliverables from the problem sets will usually
+be much more elaborate. Deliverables from the problem sets will usually
 include code written for your programs and the output produced.
 
 We will be using [GitHub Classroom](https://classroom.github.com/) for
@@ -149,24 +150,29 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            |
-| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |
-| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |
-| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |                                                                                                                |
-| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces |
-| Feb 12 |       5 | Hadoop Streaming                   | Haddop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         |
-| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       |
-| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |
-| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |
-| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |
-| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |
-| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |
-| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |
-| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |
+| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            | Reading | Assignment               | Quiz |
+| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------ | :----------------------- | :--- |
+| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |         |                          |      |
+| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |         | A1 released - due Feb 2  |      |
+| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |         |                          | Q1   |
+| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces |         | A2 released - due Feb 18 |      |
+| Feb 12 |       5 | Hadoop Streaming                   | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         |         |                          | Q2   |
+| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       |         | A3 released - due Mar 11 | Q3   |
+| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |         | A4 released - due Mar 25 |      |
+| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |         |                          | Q4   |
+| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |         | A5 released - due Apr 15 |      |
+| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |         |                          | Q5   |
+| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |         | A6 released - due Apr 22 |      |
+| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |         |                          | Q6   |
+| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |         |                          |      |
 
 **Class will not meet on Jan 15 (MLK Holiday), Feb 19 (President’s Day),
 Mar 05 (Spring Break), Apr 02 (Easter Break).**
+
+The topics for the last 4 sessions are placeholders, and it is very
+likely we will cover these topics. However, we have some room for
+flexibility depending on other topics of interest to the class. We may
+also have a guest lecturer from time to time.
 
 # Policies & Expectations
 
