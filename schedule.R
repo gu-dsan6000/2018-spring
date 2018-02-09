@@ -26,7 +26,7 @@ l02 <- tibble(
   topics = "Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers",
   lab = "Setup your environment, create SSH keys, start and connect to an instance in the cloud",
   reading = "",
-  assignment = "A1 released - due Feb 2",
+  assignment = "",
   quiz = ""
 )
 
@@ -35,25 +35,25 @@ l03 <-  tibble(
   topics = "Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift",
   lab = "TBD",
   reading = "",
-  assignment = "",
-  quiz = "Q1"
+  assignment = "A1 released - due Feb 11",
+  quiz = ""
 )
 
 l04 <- tibble(
   title = "Introduction to Hadoop & MapReduce",
   topics = "Hadoop, Distributed filesystems, MapReduce programming model",
   lab = "Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces",
-  reading = "",
-  assignment = "A2 released - due Feb 18",
-  quiz = ""
+  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapter 2",
+  assignment = "",
+  quiz = "Q1"
 )
 
 l05 <- tibble(
   title = "Hadoop Streaming",
   topics = "Hadoop Streaming",
   lab = "Run the \"Hello World\" of Hadoop, the word count using Hadoop Streaming",
-  reading = "",
-  assignment = "",
+  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapter 3",
+  assignment = "A2 released - due Feb 25",
   quiz = "Q2"
 )
 
@@ -61,7 +61,7 @@ l06 <- tibble(
   title = "Higher Level APIs",
   topics = "Pig and Hive",
   lab = "Store a dataset in a Hive table, Run and example Pig job",
-  reading = "",
+  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8",
   assignment = "A3 released - due Mar 11",
   quiz = "Q3"
 )

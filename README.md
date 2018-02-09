@@ -1,5 +1,5 @@
-**This syllabus is effective as of Tuesday, January 09, 2018 at 11:03
-AM**
+**This syllabus is effective as of Thursday, February 08, 2018 at 08:30
+PM**
 
 # ANLY502 <br/> Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2018
 
@@ -7,9 +7,14 @@ AM**
 
   - **Instructors:** Marck Vaisman (mv559 at georgetown.edu), Irina
     Vayndiner (iv95 at georgetown.edu)
-  - **Classroom:** St. Mary’s 126
+  - **Classroom:** Car Barn 203
   - **Time:** Monday 6:30-9:00pm (except 1/10 which meets on a
     Wednesday)
+  - **TA’s:**
+      - Tiankai Guo (tg550 at georgetown.edu). Office hours: Wed
+        9:30-11:30am at Car Barn 171
+      - Jiahao Xu (jx94 at georgetown.edu). Office hours: Thurs
+        4:00-6:00pm at Car Barn 171
 
 ## Course Description
 
@@ -150,21 +155,21 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            | Reading | Assignment               | Quiz |
-| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------ | :----------------------- | :--- |
-| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |         |                          |      |
-| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |         | A1 released - due Feb 2  |      |
-| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |         |                          | Q1   |
-| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces |         | A2 released - due Feb 18 |      |
-| Feb 12 |       5 | Hadoop Streaming                   | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         |         |                          | Q2   |
-| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       |         | A3 released - due Mar 11 | Q3   |
-| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |         | A4 released - due Mar 25 |      |
-| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |         |                          | Q4   |
-| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |         | A5 released - due Apr 15 |      |
-| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |         |                          | Q5   |
-| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |         | A6 released - due Apr 22 |      |
-| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |         |                          | Q6   |
-| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |         |                          |      |
+| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            | Reading                                                 | Assignment               | Quiz |
+| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ | :----------------------- | :--- |
+| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |                                                         |                          |      |
+| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |                                                         |                          |      |
+| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |                                                         | A1 released - due Feb 11 |      |
+| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces | Data Analytics with Hadoop (Bengfort, Kim) Chapter 2    |                          | Q1   |
+| Feb 12 |       5 | Hadoop Streaming                   | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         | Data Analytics with Hadoop (Bengfort, Kim) Chapter 3    | A2 released - due Feb 25 | Q2   |
+| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       | Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8 | A3 released - due Mar 11 | Q3   |
+| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |                                                         | A4 released - due Mar 25 |      |
+| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |                                                         |                          | Q4   |
+| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |                                                         | A5 released - due Apr 15 |      |
+| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |                                                         |                          | Q5   |
+| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |                                                         | A6 released - due Apr 22 |      |
+| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |                                                         |                          | Q6   |
+| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |                                                         |                          |      |
 
 **Class will not meet on Jan 15 (MLK Holiday), Feb 19 (President’s Day),
 Mar 05 (Spring Break), Apr 02 (Easter Break).**

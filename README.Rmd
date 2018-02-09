@@ -15,8 +15,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Course Information
 
 - **Instructors:** Marck Vaisman (mv559 at georgetown.edu), Irina Vayndiner (iv95 at georgetown.edu) 
-- **Classroom:** St. Mary's 126
+- **Classroom:** Car Barn 203
 - **Time:** Monday 6:30-9:00pm (except 1/10 which meets on a Wednesday)
+- **TA's:** 
+  - Tiankai Guo (tg550 at georgetown.edu). Office hours: Wed 9:30-11:30am at Car Barn 171
+  - Jiahao Xu (jx94 at georgetown.edu). Office hours: Thurs 4:00-6:00pm at Car Barn 171
 
 ## Course Description
 
