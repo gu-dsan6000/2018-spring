@@ -62,16 +62,16 @@ l06 <- tibble(
   topics = "Pig and Hive",
   lab = "Store a dataset in a Hive table, Run and example Pig job",
   reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8",
-  assignment = "A3 released - due Mar 11",
-  quiz = "Q3"
+  assignment = "",
+  quiz = "Q3 - due Mar 18"
 )
 
 l07 <- tibble(
   title = "Introduction to Spark",
   topics = "What is Spark, Resilient Distributed Datasets, PySpark",
   lab = "Start a PySpark session, Create RDDs, Operate on RDDs",
-  reading = "",
-  assignment = "A4 released - due Mar 25",
+  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 1-3, 12, 32",
+  assignment = "A3 released - due Mar 21",
   quiz = ""
 )
 
@@ -79,17 +79,17 @@ l08 <- tibble(
   title = "SparkSQL",
   topics = "SQL Review, Intro to SparkSQL",
   lab = "Perform operations on Spark dataframes using SparkSQL",
-  reading = "",
+  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapter 10",
   assignment = "",
-  quiz = "Q4"
+  quiz = "Q4 - due Apr 6"
 )
 
 l09 <- tibble(
   title = "Machine Learning on Big Data",
   topics = "SparkML, Issues with ML algorithms on large datasets",
   lab = "Build a model",
-  reading = "",
-  assignment = "A5 released - due Apr 15",
+  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 24, 25",
+  assignment = "A4 released - due Apr 11",
   quiz = ""
 )
 
@@ -97,8 +97,8 @@ l10 <- tibble(
   title = "Working with Streaming Datasets",
   topics = "Spark Streaming",
   lab = "TBD",
-  reading = "",
-  assignment = "",
+  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 20, 21",
+  assignment = "A5 released - due Apr 25",
   quiz = "Q5"
 )
 
@@ -107,7 +107,7 @@ l11 <- tibble(
   topics = "NoSQL",
   lab = "Store data in a NoSQL data store",
   reading = "",
-  assignment = "A6 released - due Apr 22",
+  assignment = "",
   quiz = ""
 )
 
@@ -115,9 +115,9 @@ l12 <- tibble(
   title = "Working with Graph Datasets",
   topics = "GraphX API for Spark",
   lab = "Analyze a large graph",
-  reading = "",
-  assignment = "",
-  quiz = "Q6"
+  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapter 30",
+  assignment = "A6 released - due May 2",
+  quiz = ""
 )
 
 l13 <- tibble(
@@ -126,7 +126,7 @@ l13 <- tibble(
   lab = "",
   reading = "",
   assignment = "",
-  quiz = ""
+  quiz = "Q6 - in class"
 )
 
 sessions <- paste0("l", str_pad(as.character(1:13), 2, pad = "0"))

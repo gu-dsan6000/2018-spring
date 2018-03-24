@@ -1,4 +1,4 @@
-**This syllabus is effective as of Thursday, February 08, 2018 at 08:30
+**This syllabus is effective as of Saturday, March 24, 2018 at 01:58
 PM**
 
 # ANLY502 <br/> Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2018
@@ -46,7 +46,7 @@ time. You will spend 36 hours in instructional time, and approximately
   - Recognize and use ancillary tools that support big data processing,
     including git and the Linux command line
   - Setup and manage big data infrastructure and tools in the cloud on
-    Amazon Web Services
+    Amazon Web Services and Microsoft Azure
   - Identify resources and documentation to remain current with big data
     tools and developments
   - Execute a big data analytics exercise from start to finish: ingest,
@@ -56,18 +56,37 @@ time. You will spend 36 hours in instructional time, and approximately
 
 ## Prerequisites
 
-  - Experience with the command line and terminal shell in Linux/OSX to
-    navigate file system, manipulate files and directories (create,
-    move, delete, etc). Understand file permissions.
+### Essential
+
+  - Experience with R, Python, and SQL for reading files, manipulating
+    and analyzing data. **Note:** We will use Python as the primary
+    interface to Apache Spark, through
+    [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
   - Understand programming concepts (flow control, input/output,
     variable assignment.)
-  - Experience with R, Python, SQL or other programming language for
-    reading files, manipulating and analyzing data. **Note:** We will
-    use Python as the primary interface to Apache Spark, through
-    [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
+  - Experience with git and GitHub
+
+### Optional and Useful
+
+  - Experience with the command line and terminal shell to navigate the
+    file system, manipulate files (create, move, delete, etc.).
+    Understand file permissions
   - Experience with remote computing via ssh
   - Understand shell executables
-  - Experience with version control tools such as git
+
+### Refresher Tutorials
+
+It is highly recommended that you go through the following tutorials if
+you need a refresher or are new to the topics of git, the command line,
+and SQL.
+
+  - [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+  - [DataCamp: Introduction to Git for Data
+    Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
+  - [DataCamp: Introduction to Shell for Data
+    Science](https://www.datacamp.com/courses/introduction-to-shell-for-data-science)
+  - [DataCamp: Introduction to SQL for Data
+    Science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
 
 # Course Materials
 
@@ -87,25 +106,25 @@ Articles, links, etc. will be posted on Canvas.
 ## Books (for assigned readings)
 
   - Benjamin Bengfort, Jenny Kim (2016). *Data Analytics with Hadoop: An
-    Introduction for Data Scientists* O’Reilly Media. ISBN:
+    Introduction for Data Scientists*. O’Reilly Media. ISBN:
     9781491913703.
-  - Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). *Practical
-    Data Science with Hadoop and Spark: Designing and Building Effective
-    Analytics at Scale*. Addison-Wesley Professional. ISBN:
-    9780134024141.
-  - Matei Zaharia, Bill Chambers (2017). *Spark: The Definitive Guide
-    (Early Release)*. O’Reilly Media. ISBN: 9781491912157.
+  - Bill Chambers, Matei Zaharia (2018). *Spark: The Definitive Guide*.
+    O’Reilly Media. ISBN: 9781491912218.
 
 ## Additional Recommended Books
 
   - Tomasz Drabas, Denny Lee (2017). *Learning Pyspark*. Packt
     Publishing. ISBN: 9781786463708.
+  - Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). *Practical
+    Data Science with Hadoop and Spark: Designing and Building Effective
+    Analytics at Scale*. Addison-Wesley Professional. ISBN:
+    9780134024141.
   - Krishna Sankar (2016). *Fast Data Processing with Spark 2 - Third
     Edition*. Packt Publishing. ISBN: 9781784392574.
 
 # Learning Activities and Evaluation
 
-This is a hands-on, practical, workshop style course, that provides
+This is a hands-on, practical, workshop style course that provides
 opportunities to use the tools and techniques discussed in class.
 Although this is not a programming course per se, there is programming
 involved.
@@ -113,10 +132,10 @@ involved.
 ## Lectures and In-Class Labs
 
 Every class session will have a lecture portion and many sessions will
-have an in-class lab portion. The lab exercises are not graded and are
-designed to get you familiar with the tools discussed in class. In these
-labs, we will work through simple examples. The completion of lab
-exercises is part of your in-class participation portion of the grade.
+have an in-class lab portion. Lab exercises are designed to get you
+familiar with the tools discussed in class. In these labs, we will work
+through simple examples. The completion of the in-class lab exercises is
+part of your attendance/participation portion of the grade.
 
 ## Quizzes
 
@@ -125,7 +144,9 @@ discussed in class and from the readings. The purpose of the quizzes is
 to reinforce your knowledge about the tools and platform and also to
 help you remember the nomenclature and terms used in class. The quizzes
 will be online through [Canvas](http://canvas.georgetown.edu) and you
-can take them at your convenience within the established time window.
+can take them at your convenience within the established time window. In
+lieu of a final exam, there will be a longer in-class quiz that is worth
+more points during the last class session.
 
 ## Assignments
 
@@ -145,9 +166,10 @@ have a [GitHub](http://www.github.com) account, please create one.
 ## Grading
 
   - Problem Sets: 60% (6 problem sets, 10% each)
-  - Quizzes: 30% (6 online quizzes, 5% each)
-  - Participation: 10% (in-class discussion, completion of in-class
-    labs, active participation in online forums)
+  - Quizzes: 30% total (5 online quizzes worth 4% or 5% each, 1 online
+    in-class quiz worth 9%)
+  - Attendance/Participation: 10% (attendance, in-class discussion,
+    completion of in-class labs, active participation in online forums)
 
 # Course Calendar
 
@@ -155,21 +177,21 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            | Reading                                                 | Assignment               | Quiz |
-| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ | :----------------------- | :--- |
-| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |                                                         |                          |      |
-| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |                                                         |                          |      |
-| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |                                                         | A1 released - due Feb 11 |      |
-| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces | Data Analytics with Hadoop (Bengfort, Kim) Chapter 2    |                          | Q1   |
-| Feb 12 |       5 | Hadoop Streaming                   | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         | Data Analytics with Hadoop (Bengfort, Kim) Chapter 3    | A2 released - due Feb 25 | Q2   |
-| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       | Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8 | A3 released - due Mar 11 | Q3   |
-| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |                                                         | A4 released - due Mar 25 |      |
-| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |                                                         |                          | Q4   |
-| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |                                                         | A5 released - due Apr 15 |      |
-| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            |                                                         |                          | Q5   |
-| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |                                                         | A6 released - due Apr 22 |      |
-| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |                                                         |                          | Q6   |
-| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |                                                         |                          |      |
+| Date   | Session | Title                              | Topics                                                                                                       | Lab                                                                                                            | Reading                                                           | Assignment               | Quiz            |
+| :----- | ------: | :--------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- | :----------------------- | :-------------- |
+| Jan 10 |       1 | Welcome to Massive Data Analytics  | Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing        |                                                                                                                |                                                                   |                          |                 |
+| Jan 22 |       2 | The Infrastructure of the Cloud    | Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers      | Setup your environment, create SSH keys, start and connect to an instance in the cloud                         |                                                                   |                          |                 |
+| Jan 29 |       3 | Database Systems                   | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |                                                                   | A1 released - due Feb 11 |                 |
+| Feb 05 |       4 | Introduction to Hadoop & MapReduce | Hadoop, Distributed filesystems, MapReduce programming model                                                 | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces | Data Analytics with Hadoop (Bengfort, Kim) Chapter 2              |                          | Q1              |
+| Feb 12 |       5 | Hadoop Streaming                   | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         | Data Analytics with Hadoop (Bengfort, Kim) Chapter 3              | A2 released - due Feb 25 | Q2              |
+| Feb 26 |       6 | Higher Level APIs                  | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       | Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8           |                          | Q3 - due Mar 18 |
+| Mar 12 |       7 | Introduction to Spark              | What is Spark, Resilient Distributed Datasets, PySpark                                                       | Start a PySpark session, Create RDDs, Operate on RDDs                                                          | Spark the Definite Guide (Chambers, Zaharia) Chapters 1-3, 12, 32 | A3 released - due Mar 21 |                 |
+| Mar 19 |       8 | SparkSQL                           | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          | Spark the Definite Guide (Chambers, Zaharia) Chapter 10           |                          | Q4 - due Apr 6  |
+| Mar 26 |       9 | Machine Learning on Big Data       | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  | Spark the Definite Guide (Chambers, Zaharia) Chapters 24, 25      | A4 released - due Apr 11 |                 |
+| Apr 09 |      10 | Working with Streaming Datasets    | Spark Streaming                                                                                              | TBD                                                                                                            | Spark the Definite Guide (Chambers, Zaharia) Chapters 20, 21      | A5 released - due Apr 25 | Q5              |
+| Apr 16 |      11 | NoSQL                              | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |                                                                   |                          |                 |
+| Apr 23 |      12 | Working with Graph Datasets        | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          | Spark the Definite Guide (Chambers, Zaharia) Chapter 30           | A6 released - due May 2  |                 |
+| Apr 30 |      13 | Other tools of interest            | Apache Drill, other topics TBD                                                                               |                                                                                                                |                                                                   |                          | Q6 - in class   |
 
 **Class will not meet on Jan 15 (MLK Holiday), Feb 19 (President’s Day),
 Mar 05 (Spring Break), Apr 02 (Easter Break).**
@@ -182,9 +204,11 @@ also have a guest lecturer from time to time.
 # Policies & Expectations
 
   - **Attendance:** Given the technical nature of this course, and the
-    breadth of topics discussed, it is expected that you attend every
-    class session. Please contact us in advance if you are not able to
-    attend class.
+    breadth of topics discussed, you must attend every class session.
+    **Attendance will be tracked and a sign-in sheet will be provided.**
+    Attendance counts towards 10% of your grade. Please contact us in
+    advance if you are not able to attend class. Excused absences in
+    advance will not affect your attendance grade.
   - **E-mail:** We will try to respond to email within 24 to 36 hours.
     Please use email for personal discussions and not for course
     questions.

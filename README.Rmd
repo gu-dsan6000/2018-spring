@@ -35,19 +35,32 @@ This is a 3 credit graduate course. You will spend approximately 3 hours per wee
 
 - Operate big data tools and cloud infrastructure, including Spark, MapReduce, Hadoop and other tools in the big data ecosystem 
 - Recognize and use ancillary tools that support big data processing, including git and the Linux command line
-- Setup and manage big data infrastructure and tools in the cloud on Amazon Web Services
+- Setup and manage big data infrastructure and tools in the cloud on Amazon Web Services and Microsoft Azure
 - Identify resources and documentation to remain current with big data tools and developments
 - Execute a big data analytics exercise from start to finish: ingest, wrangle, clean, analyze and store
 - Be aware of the responsibilities that are associated with performing analysis of large datasets 
 
 ## Prerequisites
 
-- Experience with the command line and terminal shell in Linux/OSX to navigate file system, manipulate files and directories (create, move, delete, etc). Understand file permissions. 
+### Essential
+- Experience with R, Python, and SQL for reading files, manipulating and analyzing data. **Note:** We will use Python as the primary interface to Apache Spark, through [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
 - Understand programming concepts (flow control, input/output, variable assignment.) 
-- Experience with R, Python, SQL or other programming language for reading files, manipulating and analyzing data. **Note:** We will use Python as the primary interface to Apache Spark, through [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
+- Experience with git and GitHub
+
+### Optional and Useful
+
+- Experience with the command line and terminal shell to navigate the file system, manipulate files (create, move, delete, etc.). Understand file permissions
 - Experience with remote computing via ssh
 - Understand shell executables
-- Experience with version control tools such as git
+
+### Refresher Tutorials
+
+It is highly recommended that you go through the following tutorials if you need a refresher or are new to the topics of git, the command line, and SQL.
+
+- [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+- [DataCamp: Introduction to Git for Data Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
+- [DataCamp: Introduction to Shell for Data Science](https://www.datacamp.com/courses/introduction-to-shell-for-data-science)
+- [DataCamp: Introduction to SQL for Data Science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
 
 # Course Materials
 
@@ -57,26 +70,26 @@ We may also provide supplemental materials to complement the books. Articles, li
 
 ## Books (for assigned readings)
 
-- Benjamin Bengfort, Jenny Kim (2016). _Data Analytics with Hadoop: An Introduction for Data Scientists_ O'Reilly Media. ISBN: 9781491913703.
-- Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). _Practical Data Science with Hadoop and Spark: Designing and Building Effective Analytics at Scale_. Addison-Wesley Professional. ISBN: 9780134024141.
-- Matei Zaharia, Bill Chambers (2017). _Spark: The Definitive Guide (Early Release)_. O'Reilly Media. ISBN: 9781491912157.
+- Benjamin Bengfort, Jenny Kim (2016). _Data Analytics with Hadoop: An Introduction for Data Scientists_. O'Reilly Media. ISBN: 9781491913703.
+- Bill Chambers, Matei Zaharia (2018). _Spark: The Definitive Guide_. O'Reilly Media. ISBN: 9781491912218.
 
 ## Additional Recommended Books
 
 - Tomasz Drabas, Denny Lee (2017). _Learning Pyspark_. Packt Publishing. ISBN: 9781786463708.
+- Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). _Practical Data Science with Hadoop and Spark: Designing and Building Effective Analytics at Scale_. Addison-Wesley Professional. ISBN: 9780134024141.
 - Krishna Sankar (2016). _Fast Data Processing with Spark 2 - Third Edition_. Packt Publishing. ISBN: 9781784392574.
 
 # Learning Activities and Evaluation
 
-This is a hands-on, practical, workshop style course,  that provides opportunities to use the tools and techniques discussed in class. Although this is not a programming course per se, there is programming involved. 
+This is a hands-on, practical, workshop style course that provides opportunities to use the tools and techniques discussed in class. Although this is not a programming course per se, there is programming involved. 
 
 ## Lectures and In-Class Labs
 
-Every class session will have a lecture portion and many sessions will have an in-class lab portion. The lab exercises are not graded and are designed to get you familiar with the tools discussed in class. In these labs, we will work through simple examples. The completion of lab exercises is part of your in-class participation portion of the grade. 
+Every class session will have a lecture portion and many sessions will have an in-class lab portion. Lab exercises are designed to get you familiar with the tools discussed in class. In these labs, we will work through simple examples. The completion of the in-class lab exercises is part of your attendance/participation portion of the grade. 
 
 ## Quizzes
 
-There will be a total of 6 online quizzes about the topics/ideas discussed in class and from the readings. The purpose of the quizzes is to reinforce your knowledge about the tools and platform and also to help you remember the nomenclature and terms used in class. The quizzes will be online through [Canvas](http://canvas.georgetown.edu) and you can take them at your convenience within the established time window.
+There will be a total of 6 online quizzes about the topics/ideas discussed in class and from the readings. The purpose of the quizzes is to reinforce your knowledge about the tools and platform and also to help you remember the nomenclature and terms used in class. The quizzes will be online through [Canvas](http://canvas.georgetown.edu) and you can take them at your convenience within the established time window. In lieu of a final exam, there will be a longer in-class quiz that is worth more points during the last class session.
 
 ## Assignments
 
@@ -87,8 +100,8 @@ We will be using [GitHub Classroom](https://classroom.github.com/) for problem s
 ## Grading
 
 - Problem Sets: 60% (6 problem sets, 10% each)
-- Quizzes: 30% (6 online quizzes, 5% each)
-- Participation: 10% (in-class discussion, completion of in-class labs, active participation in online forums)
+- Quizzes: 30% total (5 online quizzes worth 4% or 5% each, 1 online in-class quiz worth 9%)
+- Attendance/Participation: 10% (attendance, in-class discussion, completion of in-class labs, active participation in online forums)
 
 # Course Calendar 
 
@@ -110,7 +123,7 @@ The topics for the last 4 sessions are placeholders, and it is very likely we wi
 
 # Policies & Expectations
 
-- **Attendance:** Given the technical nature of this course, and the breadth of topics discussed, it is expected that you attend every class session. Please contact us in advance if you are not able to attend class.
+- **Attendance:** Given the technical nature of this course, and the breadth of topics discussed, you must attend every class session. **Attendance will be tracked and a sign-in sheet will be provided.** Attendance counts towards 10% of your grade. Please contact us in advance if you are not able to attend class. Excused absences in advance will not affect your attendance grade. 
 - **E-mail:** We will try to respond to email within 24 to 36 hours. Please use email for personal discussions and not for course questions.
 - **Online Discussion Boards:** Please use the discussion board on Canvas for questions about the course, homework assignments, technical issues, etc. Individual questions submitted by email do not scale, and the likelihood of many students having the same question is high. Using the forums is a great resource for everyone.
 - **Name Tents:** You will be given a name tent. Please use it every class session and place it in front of you so we can get to know your name quicker.
