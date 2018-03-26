@@ -18,8 +18,12 @@ knitr::opts_chunk$set(echo = FALSE)
 - **Classroom:** Car Barn 203
 - **Time:** Monday 6:30-9:00pm (except 1/10 which meets on a Wednesday)
 - **TA's:** 
-  - Tiankai Guo (tg550 at georgetown.edu). Office hours: Wed 9:30-11:30am at Car Barn 171
-  - Jiahao Xu (jx94 at georgetown.edu). Office hours: Thurs 4:00-6:00pm at Car Barn 171
+  - Tiankai Guo (tg550 at georgetown.edu)
+  - Jiahao Xu (jx94 at georgetown.edu) 
+- **TA Office Hours:**
+  - Tue 7:00-9:00pm at Graduate Student Loungem, Car Barn
+  - Wed 9:30-11:30am at Car Barn 171
+  - Thurs 4:00-6:00pm at Car Barn 171
 
 ## Course Description
 
@@ -36,7 +40,7 @@ This is a 3 credit graduate course. You will spend approximately 3 hours per wee
 - Operate big data tools and cloud infrastructure, including Spark, MapReduce, Hadoop and other tools in the big data ecosystem 
 - Recognize and use ancillary tools that support big data processing, including git and the Linux command line
 - Setup and manage big data infrastructure and tools in the cloud on Amazon Web Services and Microsoft Azure
-- Identify resources and documentation to remain current with big data tools and developments
+- Identify broad spectrum resources and documentation to remain current with big data tools and developments
 - Execute a big data analytics exercise from start to finish: ingest, wrangle, clean, analyze and store
 - Be aware of the responsibilities that are associated with performing analysis of large datasets 
 
@@ -44,8 +48,7 @@ This is a 3 credit graduate course. You will spend approximately 3 hours per wee
 
 ### Essential
 - Experience with R, Python, and SQL for reading files, manipulating and analyzing data. **Note:** We will use Python as the primary interface to Apache Spark, through [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
-- Understand programming concepts (flow control, input/output, variable assignment.) 
-- Experience with git and GitHub
+- Understand programming concepts (flow control, input/output, variable assignment.) - Experience with git and GitHub
 
 ### Optional and Useful
 
@@ -66,7 +69,7 @@ It is highly recommended that you go through the following tutorials if you need
 
 We have chosen several reference books for this course that cover different parts of the material. We will assign readings for each class from these books. These books are all available on [Safari Books Online](https://www.safaribooksonline.com/), and you should be able to access these resources. Our understanding is that as a Georgetown student, you have access to these resources. Visit the [Georgetown Library e-book information page](https://guides.library.georgetown.edu/ebooks) for additional information and click on "Safari Books Online".  
 
-We may also provide supplemental materials to complement the books. Articles, links, etc. will be posted on Canvas.
+We may also provide supplemental materials to complement the books. Articles, links, etc., will be posted on Canvas.
 
 ## Books (for assigned readings)
 

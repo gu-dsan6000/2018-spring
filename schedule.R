@@ -43,25 +43,25 @@ l04 <- tibble(
   title = "Introduction to Hadoop & MapReduce",
   topics = "Hadoop, Distributed filesystems, MapReduce programming model",
   lab = "Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces",
-  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapter 2",
+  reading = "(Bengfort, Kim) Chapter 2",
   assignment = "",
-  quiz = "Q1"
+  quiz = "Q1 - due Feb 19"
 )
 
 l05 <- tibble(
   title = "Hadoop Streaming",
   topics = "Hadoop Streaming",
   lab = "Run the \"Hello World\" of Hadoop, the word count using Hadoop Streaming",
-  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapter 3",
+  reading = "(Bengfort, Kim) Ch. 3",
   assignment = "A2 released - due Feb 25",
-  quiz = "Q2"
+  quiz = "Q2 - due Mar 4"
 )
 
 l06 <- tibble(
   title = "Higher Level APIs",
   topics = "Pig and Hive",
   lab = "Store a dataset in a Hive table, Run and example Pig job",
-  reading = "Data Analytics with Hadoop (Bengfort, Kim) Chapters 6,8",
+  reading = "(Bengfort, Kim) Ch. 6,8",
   assignment = "",
   quiz = "Q3 - due Mar 18"
 )
@@ -70,7 +70,7 @@ l07 <- tibble(
   title = "Introduction to Spark",
   topics = "What is Spark, Resilient Distributed Datasets, PySpark",
   lab = "Start a PySpark session, Create RDDs, Operate on RDDs",
-  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 1-3, 12, 32",
+  reading = "Required: (Chambers, Zaharia) Ch. 1-3, 12, 32; Recommended: (Sankar) p.122-126",
   assignment = "A3 released - due Mar 21",
   quiz = ""
 )
@@ -79,7 +79,7 @@ l08 <- tibble(
   title = "SparkSQL",
   topics = "SQL Review, Intro to SparkSQL",
   lab = "Perform operations on Spark dataframes using SparkSQL",
-  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapter 10",
+  reading = "Required: (Chambers, Zaharia) Ch. 10; Recommended: (Sankar) Ch. 8",
   assignment = "",
   quiz = "Q4 - due Apr 6"
 )
@@ -88,7 +88,7 @@ l09 <- tibble(
   title = "Machine Learning on Big Data",
   topics = "SparkML, Issues with ML algorithms on large datasets",
   lab = "Build a model",
-  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 24, 25",
+  reading = "Required: (Chambers, Zaharia) Ch. 24, 25; Recommended: (Sankar) Ch. 11",
   assignment = "A4 released - due Apr 11",
   quiz = ""
 )
@@ -97,9 +97,9 @@ l10 <- tibble(
   title = "Working with Streaming Datasets",
   topics = "Spark Streaming",
   lab = "TBD",
-  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapters 20, 21",
+  reading = "Required: (Chambers, Zaharia) Ch. 20, 21",
   assignment = "A5 released - due Apr 25",
-  quiz = "Q5"
+  quiz = "Q5 - due Apr 28"
 )
 
 l11 <- tibble(
@@ -115,7 +115,7 @@ l12 <- tibble(
   title = "Working with Graph Datasets",
   topics = "GraphX API for Spark",
   lab = "Analyze a large graph",
-  reading = "Spark the Definite Guide (Chambers, Zaharia) Chapter 30",
+  reading = "Required: (Chambers, Zaharia) Chapter 30; Recommended: (Sankar) Ch. 12",
   assignment = "A6 released - due May 2",
   quiz = ""
 )
